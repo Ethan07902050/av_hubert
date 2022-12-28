@@ -5,6 +5,23 @@
 
 ![lip-reading](assets/lipreading.gif)
 
+## Preprocess
+See repo root README
+
+## How to run?
+1. Install av-hubert according to the installation section.
+2. Cd to `avhubert`.
+
+### Train
+```
+bash train.sh <Path to npz train data directory> <Path to directory for saving results>
+```
+
+### Test
+```
+bash inference.sh <Path to npz test data directory> <Path to prediction csv>
+```
+
 ## Introduction
 AV-HuBERT is a self-supervised representation learning framework for audio-visual speech. It achieves state-of-the-art results in lip reading, ASR and audio-visual speech recognition on the LRS3 audio-visual speech benchmark.
 

@@ -20,8 +20,8 @@ from fairseq.data.fairseq_dataset import FairseqDataset
 from python_speech_features import logfbank
 from scipy.io import wavfile
 
-DBG=True if len(sys.argv) == 1 else False
-
+# DBG=True if len(sys.argv) == 1 else False
+DBG = True
 if DBG:
     import utils as custom_utils
     logging.basicConfig(

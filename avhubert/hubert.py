@@ -25,8 +25,8 @@ from fairseq.models.wav2vec.wav2vec2 import (
 from fairseq.modules import GradMultiply, LayerNorm
 from copy import deepcopy
 
-DBG=True if len(sys.argv) == 1 else False
-
+# DBG=True if len(sys.argv) == 1 else False
+DBG = True
 if DBG:
     from hubert_pretraining import (
         AVHubertPretrainingConfig,

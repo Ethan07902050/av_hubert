@@ -21,8 +21,8 @@ from fairseq.models.hubert.hubert import MASKING_DISTRIBUTION_CHOICES
 from fairseq.tasks import FairseqTask
 from omegaconf import II, MISSING
 
-DBG=True if len(sys.argv) == 1 else False
-
+# DBG=True if len(sys.argv) == 1 else False
+DBG = True
 if DBG:
     from hubert import AVHubertModel
     from decoder import TransformerDecoder
